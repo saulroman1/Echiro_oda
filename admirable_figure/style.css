@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  
+  }
+html {
+    background-color: darkorange;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+  }
+  #navImg {
+    justify-content: flex-start;
+    flex-grow: 1;
+    padding-left: 50px;
+    
+  }
+  #navImg img {
+    height: 70px;
+    color: white;
+    
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  li {
+    padding-right: 50px;
+    list-style-type: none;  
+    
+  }
+  header {
+      min-height: 10vh;
+      background-color: crimson;
+      padding: 1.3rem 0rem;
+  position: fixed;
+  width: 100%;
+  margin: auto;
+  z-index: 99;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-left: 10px;
+  }
+  section {
+    min-height: 100vh;
+    background-color: red;
+    background: url('https://static3.srcdn.com/wordpress/wp-content/uploads/2021/05/Monkey-D-Luffy.jpg?q=50&fit=crop&w=943&h=500&dpr=1.5') no-repeat center 115px fixed;
+    background-size: cover;
+    
+  }
+  .container {
+    padding-top: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;
+    color: white;
+  }
+
+  #achievements{
+      background: url('https://i.pinimg.com/originals/f1/ae/fc/f1aefc8ebdbe81574ce3fac8110c59fd.png');
+      background-size: cover;
+      
+      
+  }
+  .events{
+      color: aliceblue;
+      font-size: xx-large;
+  }
+  #main {
+      font-size: xx-large;
+      background-color: rgba(0,0,0, 1);
+      color: aliceblue;
+      
+  }
+  .info{
+    border-radius: 25px;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.2); 
+    -webkit-backdrop-filter: blur(8px); 
+    backdrop-filter: blur(8px);
+  }
+  .info2{
+    border-radius: 25px;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.2); 
+    -webkit-backdrop-filter: blur(8px); 
+    backdrop-filter: blur(8px);
+  }
+  
