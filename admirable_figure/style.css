@@ -97,7 +97,7 @@ nav{
     backdrop-filter: blur(8px);
   }
   .info2 button {
-    background-color: crimson; /* Green */
+    background-color: crimson; 
     border-radius: 6px;
   border: none;
   color: white;
