@@ -61,6 +61,11 @@ font-size: larger;
   
   
 }
+
+.container p {
+  font-size: xx-large;
+  padding: 5%;
+}
 section {
     min-height: 100vh;
     
@@ -84,6 +89,20 @@ section {
 }
 #img1 p {
  padding-top: 5%;
+ margin: 5%;
+  text-align: center;
+  color: aliceblue;
+  font-size: x-large;
+  font-style: italic;
+}
+#img2 {
+  margin-bottom: 5%;
+  margin-right: 5%;
+  border-radius: 15px;
+  display: flex;
+}
+#img2 p {
+ padding-bottom: 5%;
  margin: 5%;
   text-align: center;
   color: aliceblue;
