@@ -1,53 +1,25 @@
-header {
-  min-height: 10vh;
-  background-color: rgba(0, 0, 0, 0.2); 
-  padding: 1.3rem 0rem;
-position: fixed;
-width: 100%;
-margin: auto;
-z-index: 99;
 
-
-}
-nav{
-display: flex;
-flex-direction: row;
-}
-#navImg {
+nav {
 justify-content: flex-start;
 flex-grow: 1;
 padding-left: 50px;
 
 }
-#navImg img {
+nav img {
 height: 100px;
 color: white;
 
 }
-#Navtext {
+Nav span {
 text-align: center;
 color: aliceblue;
-margin-right: 43%;
+margin-left: 80%;
 font-size: larger;
 }
 
-#Navbutton button {
- 
-  background-color: rgba(0, 0, 0, 0.2); 
-    border-radius: 6px;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  margin-right: 15px;
-  border-style: solid;
-  
-}
-.container {
+
+
+.jumbotron-jumbotron-fluid {
   
   border-radius: 25px;
   
@@ -58,15 +30,12 @@ font-size: larger;
    margin-top: 20%;
   text-align: center;
   color: aliceblue;
-  
+  font-size: xx-large;
   
 }
 
-.container p {
-  font-size: xx-large;
-  padding: 5%;
-}
-section {
+
+.backgrndimg {
     min-height: 100vh;
     
     background-color: red;
@@ -74,38 +43,15 @@ section {
     background-size: cover;
     
   }
-  #second{
+  body{
     background: url('https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500 ');
-    background-size: cover;
+    
     
     
 }
 
-#img1 {
-  margin-top: 5%;
-  margin-left: 5%;
-  border-radius: 15px;
-  display: flex;
-}
-#img1 p {
- padding-top: 5%;
- margin: 5%;
-  text-align: center;
+.row p{
   color: aliceblue;
   font-size: x-large;
-  font-style: italic;
-}
-#img2 {
-  margin-bottom: 5%;
-  margin-right: 5%;
-  border-radius: 15px;
-  display: flex;
-}
-#img2 p {
- padding-bottom: 5%;
- margin: 5%;
-  text-align: center;
-  color: aliceblue;
-  font-size: x-large;
-  font-style: italic;
+  
 }
